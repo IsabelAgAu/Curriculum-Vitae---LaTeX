@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\usepackage[utf8]{inputenc}
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\graphicspath{ {Images/}}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{center}
+\par{\centering{\Huge Isabel \textsc{Aguilar Augustín}}\bigskip\par} % Your
+\includegraphics[scale=0.10]{foto3}
+\end{center}
+
+
+% name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & Granada, Spain  | 17 January 1991 \\
+\textsc{Address:} & c/ Pintor Manuel Maldonado N25 - 3A, Granada, Spain \\
+\textsc{Phone:} & 667300748\\
+\textsc{email:} & {isabelagau@gmail.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & Software Engineer - \textsc{UNIT4 RD}, Granada \\
+\textsc{Jan 2015} 
+& \footnotesize{Software developer}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jun 2014-Oct 2014} & Software Engineer - \textsc{Tertius Informática},
+Granada \emph{}\\
+& \footnotesize{Web Application Developer}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent, B2 level\\
+
+\textsc{Spanish:} & Mothertongue\\
+
+\end{tabular} 
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Programming lenguages: & \textsc{php}, \textsc{html}, \textsc{C},
+\textsc{C\#}, \textsc{C++}, \textsc{Java}, \textsc{.NET}, \textsc{LaTeX},
+\textsc{Perl}\\
+
+APIs and Protocols:  & \textsc{XML}, \textsc{JSON}, \textsc{Phonegap},
+\textsc{SDK}, \textsc{Symfony}\\
+
+Data Base: & \textsc{MySQL}, \textsc{SQLite}, \textsc{Oracle}\\
+
+Others: & \textsc{Eclipse}, \textsc{NetBeans}, \textsc{Visual Studio},
+\textsc{Git}, \textsc{UML} \\
+
+\end{tabular}
+
+\section{Personal Qualities}
+
+Teamwork Skills \\
+Currently working with SCRUM and TDD\\
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+
+\textsc{2009-2014}& Degree in Software Engineering
+\\& ``Titulación en Ingeniería Informática Superior''
+\\& \normalsize\textbf{University of Granada}, Spain\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2015} & Web Server programming with HTML, Perl/C 
+\\& ``Programación de servidores Web HTML, Perl/C''
+\\& \normalsize\textbf{University of Granada}, Spain\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2015} & Software development with Git
+\\& ``Desarrollo de software colaborativo con Git''
+\\& \normalsize\textbf{University of Granada}, Spain\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2014} & Cambridge English Level 1 Certificate in ESOL International
+(First)\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2014} & Enterprising Route 
+\\& ``Ruta Emprendedora''
+\\& \normalsize\textbf{University of Granada}, Spain\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2013} & Grade in English Immersion, High Intermediate level 
+\\& ``Curso de Inmersión a la lengua Inglesa Nivel Intermedio 2''
+\\& \normalsize\textbf{University Méndez Pelayo}, Santander, Spain\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2013} & Grade in Mobile Application development with Android (third
+edition) 
+\\& ``Desarrollo de aplicaciones móviles con dispositivos Android''
+\\& \normalsize\textbf{University of Granada}, Spain\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2012} & Grade in routers and switches CISCO (Second edition)
+\\& ``Supuestos y casos prácticos de configuración de router y switches CISCO''
+\\& \normalsize\textbf{University of Granada}, Spain\\
+&\\
+
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Design\\
+Travelling\\
+Reading\\
+Writing\\
+\end{document}
