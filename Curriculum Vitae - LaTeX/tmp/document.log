@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.2.12)  19 MAY 2016 18:55
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.2.12)  26 NOV 2016 17:56
 entering extended mode
 **./document.tex
 (document.tex
@@ -898,42 +898,36 @@ Requested font "Fontin/I/OT:mapping=tex-text;mapping=tex-text;" at 10.0pt
 Requested font "Fontin/OT:mapping=tex-text;mapping=tex-text;" at 8.0pt
  -> C:/WINDOWS/Fonts/Fontin-SmallCaps.otf
 
-Overfull \hbox (9.93033pt too wide) in paragraph at lines 84--100
-[][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
-
- []
-
-Requested font "Fontin/B/OT:mapping=tex-text;mapping=tex-text;" at 10.0pt
- -> C:/WINDOWS/Fonts/Fontin-Bold.otf
-
-Overfull \hbox (8.07011pt too wide) in paragraph at lines 147--205
+Overfull \hbox (9.93033pt too wide) in paragraph at lines 85--119
 [][][] 
  []
 
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--218
+Underfull \hbox (badness 10000) in paragraph at lines 184--189
 
  []
 
+Requested font "Fontin/B/OT:mapping=tex-text;mapping=tex-text;" at 10.0pt
+ -> C:/WINDOWS/Fonts/Fontin-Bold.otf
+
+Overfull \hbox (8.07011pt too wide) in paragraph at lines 196--254
+[][][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (document.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 218.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
  22560 strings out of 428721
  412450 string characters out of 3163014
- 450414 words of memory out of 3000000
+ 448414 words of memory out of 3000000
  25795 multiletter control sequences out of 15000+200000
  4144 words of font info for 33 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
